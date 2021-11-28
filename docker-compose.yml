@@ -8,6 +8,6 @@ services:
       - ".:/app"
     env_file:
       - .env
-    container_name: url-shortener
+    container_name: Go-URLShortener
     ports:
     - "5000:5000"
